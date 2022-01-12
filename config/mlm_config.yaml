@@ -3,6 +3,9 @@ MLMData:
   language: 'ru'
   n_samples: 100
 
+MLMDataset:
+  mlm_robability: 0.2
+
 faiss:
   embedding_model_name: 'distiluse-base-multilingual-cased-v1'
   dimensions: 512
