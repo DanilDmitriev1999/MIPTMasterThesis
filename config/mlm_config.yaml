@@ -1,0 +1,8 @@
+MLMData:
+  path_data: 'mc4'
+  language: 'ru'
+  n_samples: 100
+
+faiss:
+  embedding_model_name: 'distiluse-base-multilingual-cased-v1'
+  dimensions: 512
